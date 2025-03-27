@@ -142,7 +142,6 @@ function generateServer(config) {
       
       //*define the route
       app[method](endpoint, applyMiddleware(id), routeHandler);
-      console.log({method, endpoint, middleware_name : applyMiddleware(id), routeHandler});
     }
   });
 }
