@@ -23,7 +23,7 @@ A secure Node.js backend server with user authentication and role-based access c
 1. Clone the repository:
     ```bash
     git clone https://github.com/kaifmanzar26MAR/DynamicServer
-    cd Dynamic-Sever
+    cd DynamicServer\Dynamic-Server
     ```
 
 2. Install dependencies:
