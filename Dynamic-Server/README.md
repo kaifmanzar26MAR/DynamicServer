@@ -31,11 +31,12 @@ A secure Node.js backend server with user authentication and role-based access c
     npm install
     ```
 
-3. Create a `.env` file in the root directory with the following variables:
+3. Create a `.env` file in the root directory with the following variables gien my config data:
     ```env
-    PORT=3000
-    MONGODB_URI=your_mongodb_connection_string
-    JWT_SECRET=your_jwt_secret_key
+    PORT = 3000
+    BASE_DOMAIN = http://localhost:
+    DB_CONNECTION_STRING = mongodb+srv://kaifmanzar321:kaifmanzar321@cluster0.jwafr9a.mongodb.net
+    JWT_SECRET = thisisthejwttesstsectreatforthetestassessment@nervspaksBy_md_kaifManzar
     ```
 
 4. Start the server:
